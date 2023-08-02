@@ -48,6 +48,10 @@ nav ul {
   text-transform: uppercase;
 }
 
+nav ul li {
+  cursor: pointer;
+}
+
 nav {
   margin: 33px 41px 27px 33px;
 }
