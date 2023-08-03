@@ -4,28 +4,41 @@ import data from './data.json'
 export default function Planet(props) {
 
   const planetData = data.find(planet => planet.name === props.planet)
-  const [selectedTopic, setSelectedTopic] = useState("Overview");
+  const [selectedTopic, setSelectedTopic] = useState("overview");
+  const [selectedImage, setSelectedImage] = useState("planet");
 
-  
+  function triggerHandlers(topic, planetImage) {
+    handleSelectedTopic(topic)
+    handleSelectedImage(planetImage)
+  }
+
+  function handleSelectedTopic(topic) {
+    setSelectedTopic(topic)
+  }
+
+  function handleSelectedImage(planetImage) {
+    setSelectedImage(planetImage)
+  }
+
   return (
     <section>
       <div className='planet-main-container'>
         <div className='planet-img-container'>
-          <img className='planet-img' src={planetData.images.planet} alt={`A low-resolution, drawn image of ${props.planet}`}/>
+          <img className='planet-img' src={planetData.images[selectedImage]} alt={`A low-resolution, drawn image of ${props.planet}`}/>
         </div>
         <div className='planet-info-container'>
           <h1>{props.planet}</h1>
-          <p className='planet-content'>{planetData.overview.content}</p>
-          <p className ='source'>Source : <a href={planetData.overview.source} className="wikipedia">Wikipedia</a></p>
-          <div className='planet-topic-container'>
+          <p className='planet-content'>{planetData[selectedTopic].content}</p>
+          <p className ='source'>Source : <a href={planetData[selectedTopic].source} className="wikipedia">Wikipedia</a></p>
+          <div onClick={() => triggerHandlers("overview", "planet")} className='planet-topic-container'>
             <p className='planet-topic-number'>01</p>
             <p className='planet-topic'>Overview</p>
           </div>
-          <div className='planet-topic-container'>
+          <div onClick={() => triggerHandlers("structure", "internal")} className='planet-topic-container'>
             <p className='planet-topic-number'>02</p>
             <p className='planet-topic'>Internal Structure</p>
           </div>
-          <div className='planet-topic-container'>
+          <div onClick={() => triggerHandlers("geology", "geology")} className='planet-topic-container'>
             <p className='planet-topic-number'>03</p>
             <p className='planet-topic'>Surface Geology</p>
           </div>
