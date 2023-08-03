@@ -66,3 +66,116 @@ nav {
   letter-spacing: -1.05px;
   text-transform: uppercase;
 }
+
+section {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.planet-main-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.planet-img-container {
+  max-height: 100%;
+}
+
+.planet-info-container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.planet-overview-content {
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+.source {
+  opacity: 0.5;
+  font-size: 14px;
+  line-height: 25px;
+  margin: 24px 0 39px 0;
+}
+
+.wikipedia {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  text-decoration-line: underline;
+}
+
+.planet-topic-container {
+  width: 350px;
+  height: 48px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.planet-topic-number {
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 208.333% */
+  letter-spacing: 2.571px;
+  text-transform: uppercase;
+  opacity: 0.5;
+  margin: 0 25px 0 28px;
+}
+
+.planet-topic {
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 208.333% */
+  letter-spacing: 2.571px;
+  text-transform: uppercase;
+}
+
+.planet-facts-container {
+  display: flex;
+  justify-content: center;
+  gap: 49px;
+  margin-top: 50px;
+}
+
+.planet-fact-box {
+  width: 255px;
+  height: 128px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.planet-fact-title {
+  color: #FFF;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 227.273% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.5;
+  margin-left: 23px;
+}
+
+.planet-fact {
+  color: #FFF;
+  font-family: 'Antonio', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+  margin-left: 23px;
+}
