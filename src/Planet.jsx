@@ -7,7 +7,7 @@ export default function Planet(props) {
     <section>
       <div className='planet-main-container'>
         <div className='planet-img-container'>
-          <img src={planetData.images.planet} />
+          <img className='planet-img' src={planetData.images.planet} alt={`A low-resolution, drawn image of ${props.planet}`}/>
         </div>
         <div className='planet-info-container'>
           <h1>{props.planet}</h1>

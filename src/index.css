@@ -75,12 +75,22 @@ section {
 
 .planet-main-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .planet-img-container {
-  max-height: 100%;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.planet-img {
+  max-width: 100%; 
+  height: auto; 
+}
+
 
 .planet-info-container {
   display: flex;
