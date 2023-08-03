@@ -12,7 +12,7 @@ export default function App() {
   }
 
   return (
-      <div>
+    <div style={{ backgroundImage: 'url(/assets/background-stars.svg)' }}>
       <Header onPlanetClick={handlePlanetClick} />
       <Planet planet={selectedPlanet} />
     </div>

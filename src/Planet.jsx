@@ -1,8 +1,12 @@
+import { useState } from 'react';
 import data from './data.json'
 
 export default function Planet(props) {
-  const planetData = data.find(planet => planet.name === props.planet)
 
+  const planetData = data.find(planet => planet.name === props.planet)
+  const [selectedTopic, setSelectedTopic] = useState("Overview");
+
+  
   return (
     <section>
       <div className='planet-main-container'>

@@ -20,6 +20,7 @@ h1, h2 {
 
 h1 {
   font-size: 80px;
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -98,10 +99,9 @@ section {
   width: 350px;
 }
 
-.planet-overview-content {
+.planet-content {
   font-size: 14px;
   line-height: 25px;
-  margin-top: 20px;
 }
 
 .source {
@@ -152,9 +152,9 @@ section {
 
 .planet-facts-container {
   display: flex;
-  justify-content: center;
-  gap: 49px;
-  margin-top: 50px;
+  justify-content: space-between;
+  width: 1194px;
+  margin: 50px auto 0 auto;
 }
 
 .planet-fact-box {
