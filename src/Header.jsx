@@ -5,6 +5,9 @@ export default function Header(props) {
   return (
     <header>
         <p className="title">The Planets</p>
+        <div className='nav-icon'>
+          <img src="\assets\icon-hamburger.svg" alt="Three lines representing the navigation menu."/>
+        </div>
         <nav>
             <ul>
                 <li onClick={() => props.onPlanetClick("Mercury")}>Mercury</li>

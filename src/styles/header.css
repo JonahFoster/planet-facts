@@ -37,7 +37,41 @@ header {
     font-family: 'Antonio', sans-serif;
     font-size: 28px;
     font-weight: 400;
-    line-height: normal;
     letter-spacing: -1.05px;
     text-transform: uppercase;
   }
+
+  .nav-icon {
+    opacity: 0;
+    display: none;
+  }
+
+  @media (max-width: 767px) {
+    .title {
+      color: #FFF;
+      font-family: 'Antonio', sans-serif;
+      font-size: 28px;
+      font-weight: 400;
+      letter-spacing: -1.05px;
+      text-transform: uppercase;
+    }
+
+    nav {
+      opacity: 0;
+      display: none;
+    }
+
+    .nav-icon {
+      opacity: 100;
+      display: block;
+      margin-right: 24px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+    }
+  }
+  
