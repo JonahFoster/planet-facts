@@ -1,0 +1,135 @@
+section {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .planet-main-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .planet-img-container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .planet-img {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+  }
+  
+  .planet-geology-img {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    bottom: 50px;
+  }
+  
+  .planet-info-container {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+  }
+  
+  .planet-content {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  
+  .source {
+    opacity: 0.5;
+    font-size: 14px;
+    line-height: 25px;
+    margin: 24px 0 39px 0;
+  }
+  
+  .wikipedia {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    text-decoration-line: underline;
+  }
+  
+  .planet-topic-container {
+    width: 350px;
+    height: 48px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .planet-topic-container:hover {
+    opacity: 1;
+    background-color: rgba(216, 216, 216, 0.2);
+  }
+  
+  .planet-topic-number {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 208.333% */
+    letter-spacing: 2.571px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin: 0 25px 0 28px;
+  }
+  
+  .planet-topic {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 208.333% */
+    letter-spacing: 2.571px;
+    text-transform: uppercase;
+  }
+  
+  .planet-facts-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1128px;
+    margin: 50px auto 0 auto;
+  }
+  
+  .planet-fact-box {
+    width: 255px;
+    height: 128px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .planet-fact-title {
+    color: #FFF;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 227.273% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-left: 23px;
+  }
+  
+  .planet-fact {
+    color: #FFF;
+    font-family: 'Antonio', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.5px;
+    text-transform: uppercase;
+    margin-left: 23px;
+  }

@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import data from './data.json'
+import './styles/planets.css'
 
 export default function Planet(props) {
 
