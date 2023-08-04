@@ -73,11 +73,10 @@ section {
   }
   
   .planet-topic-number {
-    color: #FFF;
     font-size: 12px;
     font-style: normal;
     font-weight: 700;
-    line-height: 25px; /* 208.333% */
+    line-height: 25px;
     letter-spacing: 2.571px;
     text-transform: uppercase;
     opacity: 0.5;
@@ -85,11 +84,11 @@ section {
   }
   
   .planet-topic {
-    color: #FFF;
+
     font-size: 12px;
     font-style: normal;
     font-weight: 700;
-    line-height: 25px; /* 208.333% */
+    line-height: 25px;
     letter-spacing: 2.571px;
     text-transform: uppercase;
   }
@@ -111,11 +110,9 @@ section {
   }
   
   .planet-fact-title {
-    color: #FFF;
     font-size: 11px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 25px; /* 227.273% */
+    line-height: 25px;
     letter-spacing: 1px;
     text-transform: uppercase;
     opacity: 0.5;
@@ -123,12 +120,8 @@ section {
   }
   
   .planet-fact {
-    color: #FFF;
     font-family: 'Antonio', sans-serif;
     font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     letter-spacing: -1.5px;
     text-transform: uppercase;
     margin-left: 23px;
