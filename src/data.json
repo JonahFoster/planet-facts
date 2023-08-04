@@ -74,7 +74,7 @@
   {
     "name": "Mars",
     "overview": {
-      "content": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the \"Red Planet\".",
+      "content": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often colloquially referred to as the \"Red Planet\".",
       "source": "https://en.wikipedia.org/wiki/Mars"
     },
     "structure": {
@@ -106,7 +106,7 @@
       "source": "https://en.wikipedia.org/wiki/Jupiter#Internal_structure"
     },
     "geology": {
-      "content": "The best known feature of Jupiter is the Great Red Spot, a persistent anticyclonic storm located 22° south of the equator. It is known to have existed since at least 1831, and possibly since 1665.",
+      "content": "The best known and most distinctive feature of Jupiter is the Great Red Spot, a persistent anticyclonic storm located 22° south of the equator. It is known to have existed continuously since at least 1831, and possibly as far back as 1665.",
       "source": "https://en.wikipedia.org/wiki/Jupiter#Great_Red_Spot_and_other_vortices"
     },
     "rotation": "9.93 Hours",
@@ -154,7 +154,7 @@
       "source": "https://en.wikipedia.org/wiki/Uranus#Internal_structure"
     },
     "geology": {
-      "content": "The composition of Uranus's atmosphere is different from its bulk, consisting mainly of molecular hydrogen and helium. The helium molar fraction, i.e. the number of helium atoms per molecule of gas, is 0.15±0.03 in the upper troposphere.",
+      "content": "The composition of Uranus's atmosphere is markedly different from its bulk, consisting mainly of molecular hydrogen and helium. The helium molar fraction, i.e., the number of helium atoms per molecule of gas, is precisely 0.15±0.03 in the upper troposphere.",
       "source": "https://en.wikipedia.org/wiki/Uranus#Atmosphere"
     },
     "rotation": "17.2 Hours",
@@ -178,7 +178,7 @@
       "source": "https://en.wikipedia.org/wiki/Neptune#Internal_structure"
     },
     "geology": {
-      "content": "Neptune's atmosphere is 80% hydrogen and 19% helium. A trace amount of methane is also present. Prominent absorption bands of methane exist at wavelengths above 600 nm, in the red and infrared portion of the spectrum.",
+      "content": "Neptune's atmosphere is comprised of 80% hydrogen and 19% helium. A trace amount of methane is also present. Prominent absorption bands of methane exist at wavelengths above 600 nm, in the deep red and infrared portion of the spectrum.",
       "source": "https://en.wikipedia.org/wiki/Neptune#Atmosphere"
     },
     "rotation": "16.08 Hours",

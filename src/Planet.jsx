@@ -74,6 +74,7 @@ export default function Planet(props) {
       <div className='planet-main-container'>
         <div className='planet-img-container'>
           <img className='planet-img' src={planetData.images[selectedImage]} alt={`A low-resolution, drawn image of ${props.planet}`}/>
+          {selectedTopic === "geology" ? <img src={planetData.images[selectedTopic]} className='planet-geology-img'/> : null}
         </div>
         <div className='planet-info-container'>
           <h1>{props.planet}</h1>
@@ -87,7 +88,7 @@ export default function Planet(props) {
             <p className='planet-topic-number'>02</p>
             <p className='planet-topic'>Internal Structure</p>
           </div>
-          <div style={selectedTopic === "geology" ? topicStylesMap[props.planet].geology : {}} onClick={() => triggerHandlers("geology", "geology")} className='planet-topic-container'>
+          <div style={selectedTopic === "geology" ? topicStylesMap[props.planet].geology : {}} onClick={() => triggerHandlers("geology", "planet")} className='planet-topic-container'>
             <p className='planet-topic-number'>03</p>
             <p className='planet-topic'>Surface Geology</p>
           </div>
