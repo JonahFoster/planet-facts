@@ -41,7 +41,7 @@ header {
     text-transform: uppercase;
   }
 
-  .nav-icon {
+  .mobile-nav-icon {
     opacity: 0;
     display: none;
   }
@@ -61,7 +61,7 @@ header {
       display: none;
     }
 
-    .nav-icon {
+    .mobile-nav-icon {
       opacity: 100;
       display: block;
       margin-right: 24px;
