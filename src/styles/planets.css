@@ -126,3 +126,135 @@ section {
     text-transform: uppercase;
     margin-left: 23px;
   }
+
+  @media (max-width: 767px) {
+    section {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .planet-main-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .planet-img-container {
+      width: 200px;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      position: relative;
+    }
+    
+    .planet-img {
+      max-width: 100%;
+      max-height: 100%;
+      position: absolute;
+    }
+    
+    .planet-geology-img {
+      width: 140px;
+      height: 140px;
+      position: absolute;
+      bottom: 50px;
+    }
+    
+    .planet-info-container {
+      display: flex;
+      flex-direction: column;
+      width: 350px;
+    }
+    
+    .planet-content {
+      font-size: 14px;
+      line-height: 25px;
+    }
+    
+    .source {
+      opacity: 0.5;
+      font-size: 14px;
+      line-height: 25px;
+      margin: 24px 0 39px 0;
+    }
+    
+    .wikipedia {
+      color: #FFF;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 25px;
+      text-decoration-line: underline;
+    }
+    
+    .planet-topic-container {
+      width: 350px;
+      height: 48px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    
+    .planet-topic-container:hover {
+      opacity: 1;
+      background-color: rgba(216, 216, 216, 0.2);
+    }
+    
+    .planet-topic-number {
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 25px;
+      letter-spacing: 2.571px;
+      text-transform: uppercase;
+      opacity: 0.5;
+      margin: 0 25px 0 28px;
+    }
+    
+    .planet-topic {
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 25px;
+      letter-spacing: 2.571px;
+      text-transform: uppercase;
+    }
+    
+    .planet-facts-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    
+    .planet-fact-box {
+      width: 100%;
+      height: 100px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .planet-fact-title {
+      font-size: 11px;
+      font-weight: 700;
+      line-height: 25px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      opacity: 0.5;
+      margin-left: 23px;
+    }
+    
+    .planet-fact {
+      font-family: 'Antonio', sans-serif;
+      font-size: 40px;
+      letter-spacing: -1.5px;
+      text-transform: uppercase;
+      margin-left: 23px;
+    }
+    
+  }
