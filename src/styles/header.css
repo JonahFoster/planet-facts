@@ -4,35 +4,50 @@ header {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
   }
   
-  nav ul {
-    list-style: none;
-    display: flex;
-    gap: 33px;
-    font-family: 'League Spartan', sans-serif;
-    color: #FFF;
-    font-size: 11px;
-    font-weight: 700;
-    line-height: 25px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
-  
-  nav ul li {
-    cursor: pointer;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom 0.3s ease-in-out;
-  }
-  
-  nav ul li:hover {
-    border-bottom: 2px solid #FFF;
-  }
-  
-  nav {
-    margin: 33px 41px 27px 33px;
-  }
-  
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 33px;
+  font-family: 'League Spartan', sans-serif;
+  color: #FFF;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+nav ul li {
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease-in-out;
+}
+
+nav ul li:hover {
+  border-bottom: 2px solid #FFF;
+}
+
+nav {
+  margin: 33px 41px 27px 33px;
+}
+
+.title {
+  margin: 22px 0px 27px 32px;
+  color: #FFF;
+  font-family: 'Antonio', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: -1.05px;
+  text-transform: uppercase;
+}
+
+.nav-icon {
+  opacity: 0;
+  display: none;
+}
+
+@media (max-width: 767px) {
   .title {
-    margin: 22px 0px 27px 32px;
     color: #FFF;
     font-family: 'Antonio', sans-serif;
     font-size: 28px;
@@ -41,37 +56,21 @@ header {
     text-transform: uppercase;
   }
 
-  .nav-icon {
+  nav {
     opacity: 0;
     display: none;
   }
 
-  @media (max-width: 767px) {
-    .title {
-      color: #FFF;
-      font-family: 'Antonio', sans-serif;
-      font-size: 28px;
-      font-weight: 400;
-      letter-spacing: -1.05px;
-      text-transform: uppercase;
-    }
-
-    nav {
-      opacity: 0;
-      display: none;
-    }
-
-    .nav-icon {
-      opacity: 100;
-      display: block;
-      margin-right: 24px;
-    }
-
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
-    }
+  .nav-icon {
+    opacity: 100;
+    display: block;
+    margin-right: 24px;
   }
-  
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+  }
+}
