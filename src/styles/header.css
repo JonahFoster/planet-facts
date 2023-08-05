@@ -41,7 +41,7 @@ nav {
   text-transform: uppercase;
 }
 
-.nav-icon {
+.mobile-nav-icon {
   opacity: 0;
   display: none;
 }
@@ -56,21 +56,12 @@ nav {
     text-transform: uppercase;
   }
 
-<<<<<<< HEAD
   nav {
-=======
-  .mobile-nav-icon {
->>>>>>> ef4c248cd6d3b2476019522889889ace6bfaaddd
     opacity: 0;
     display: none;
   }
 
-<<<<<<< HEAD
-  .nav-icon {
-    opacity: 100;
-    display: block;
-    margin-right: 24px;
-=======
+  
   @media (max-width: 767px) {
     .title {
       color: #FFF;
@@ -98,7 +89,6 @@ nav {
       align-items: center;
       border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
     }
->>>>>>> ef4c248cd6d3b2476019522889889ace6bfaaddd
   }
 
   header {
