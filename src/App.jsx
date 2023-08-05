@@ -10,7 +10,6 @@ export default function App() {
   function handlePlanetClick(planet) {
     setSelectedPlanet(planet)
     setMobileNav(false)
-    console.log(selectedPlanet)
   }
 
   return (
