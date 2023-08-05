@@ -38,4 +38,4 @@ Users should be able to:
 ## Author
 
 - Website - [Jonah Foster](https://www.jonahfoster.com)
-- Twitter - [@yourusername](https://www.twitter.com/thejonahfoster)
+- Twitter - [@thejonahfoster](https://www.twitter.com/thejonahfoster)
