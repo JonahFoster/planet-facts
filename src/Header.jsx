@@ -5,7 +5,7 @@ export default function Header(props) {
   return (
     <header>
         <p className="title">The Planets</p>
-        <div className='nav-icon'>
+        <div className='mobile-nav-icon'>
           <img src="\assets\icon-hamburger.svg" alt="Three lines representing the navigation menu."/>
         </div>
         <nav>
